@@ -1,0 +1,33 @@
+{
+  "name": "codemood",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "lucide-react": "^0.577.0",
+    "next": "16.4.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "recharts": "^3.7.0",
+    "tailwindcss": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "prettier": "^3.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
